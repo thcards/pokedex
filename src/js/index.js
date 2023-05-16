@@ -17,3 +17,7 @@ botaoAlterarTema.addEventListener("click", () => {
         imagemBotaoTrocaDeTema.setAttribute("src", "./src/imagens/moon.png")
     }
 })
+
+window.onload = function () {
+        document.getElementById("autoplay").play();
+}

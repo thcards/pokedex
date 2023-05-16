@@ -1,7 +1,7 @@
-body{
+body {
     font-family: "Press Start 2P", sans-serif;
 
-    background-color:rgb(211, 94, 26) ;
+    background-color:rgb(20, 77, 131) ;
     background-image: url(../imagens/pxfuel.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,14 +22,19 @@ header{
         padding: 25px;
 }
 header .logo,
-header .imagem-botao {
+header .imagem-botao
+{
     width: 30px;
     transition: 0.2s ease-in-out; 
 }
-header #botao-alterar-tema{
+
+
+header #botao-alterar-tema
+{
     background: none;
     border: none;
 }
+
 header .logo:hover,
 header .imagem-botao:hover,
 main .cartao-pokemon:hover

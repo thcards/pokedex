@@ -11,7 +11,7 @@ body.modo-escuro{
     background-color:rgb(94, 75, 116) ;
     background-image: url(../imagens/pxfuelnite.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: center;
     color: #ffffff;
 }
 header{

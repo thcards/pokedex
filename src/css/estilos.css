@@ -1,0 +1,133 @@
+body{
+    font-family: "Press Start 2P", sans-serif;
+
+    background-color:rgb(211, 94, 26) ;
+    background-image: url(../imagens/pxfuel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333;
+}
+body.modo-escuro{
+    background-color:rgb(94, 75, 116) ;
+    background-image: url(../imagens/pxfuelnite.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+header{
+        text-align: center;
+        display: flex;
+        flex-direction: flex;
+        justify-content: space-between;
+        padding: 25px;
+}
+header .logo,
+header .imagem-botao {
+    width: 30px;
+    transition: 0.2s ease-in-out; 
+}
+header #botao-alterar-tema{
+    background: none;
+    border: none;
+}
+header .logo:hover,
+header .imagem-botao:hover,
+main .cartao-pokemon:hover
+{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+main {
+    padding: 25px;
+}
+main .listagem-pokemon {
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+main .cartao-pokemon {
+    background-color: #d8e3ec;
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+}
+main .cartao-pokemon:hover {
+background-color: #a27ee6;
+color: #0f0f0f;
+}
+.modo-escuro .cartao-pokemon{
+    background-color: #302b2b;
+    color: #d8e3ec;
+}
+main .cartao-pokemon .informacoes {
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid #3d3c3c ;
+    border-radius: 10px;
+}
+main .cartao-pokemon .informacoes span {
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+main .cartao-pokemon .gif{
+    width: 90px;
+    height: 90px;
+}
+
+main .cartao-pokemon .tipos {
+    display: flex;
+    gap: 15px;
+}
+
+main .cartao-pokemon .tipo{
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 9px;
+}
+main .descricao {
+    max-height: 80px;
+    overflow-y: scroll;
+    font-size: 12px;
+    padding-right: 10px;
+    font-style: oblique;
+    -webkit-font-smoothing: antialiased;
+}
+
+.psiquico {
+    background-color: #a27ee6;
+}
+
+.pedra {
+    background-color: #b8a8a8;
+}
+
+.lendario {
+    background-color: rgb(255, 198, 91);
+}
+
+.voador {
+    background-color: rgb(89, 203, 238);
+}
+.fantasma {
+    background-color: rgb(255, 255, 255);
+}
+
+.veneno {
+    background-color: #61ff88;
+}
+
+.fogo {
+    background-color: rgb(255, 56, 56);
+}
+.noturno {
+    background-color: #0f0f0f;
+    color: antiquewhite;
+}
